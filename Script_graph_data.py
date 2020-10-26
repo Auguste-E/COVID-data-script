@@ -23,6 +23,8 @@ for Directory in [Datafiles_directory, Animation_directory]: # Create necessary 
     except:
         pass
 
+
+
 Title_fontsize = 25 # Size in pixels of different elements in the graph
 Date_fontsize = 25
 Annotation_fontsize = 15
@@ -76,7 +78,6 @@ def Main_script(X_axis_inc = 1, Y_axis_inc = 7, Z_axis_inc = 12, Date_start = No
         11 - New deaths per million smoothed
         12 - Positivity rate
         13 - Testing policy
-        
     """
     Timer_start = time.perf_counter()
     
